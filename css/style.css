@@ -43,9 +43,18 @@ header{
     padding: 0.5rem 1rem;
 }
 
+.tertiary-btn{
+    background-color: #8EA1E1;
+    color: white;
+    border: none;
+    border-radius: 1rem;
+    padding: 0.5rem 1rem;
+}
+
 .hero{
     background-image: url(../img/jumbo.png);
-    background-size: 1280px;
+    background-repeat: no-repeat;
+    background-size: 100%;
     height: 400px;
     display: flex;
     justify-content: center;
@@ -55,19 +64,33 @@ header{
 }
 
 .hero-content{
-    max-width: 30rem;
+    max-width: 50%;
     margin: 0 auto;
     color: white;
 }
 
+.hero-title,
+.hero-p{
+    margin: 1rem 0;
+    line-height: 150%;
+    color: white;
+}
+
 h1,
+h2,
 p{
-    margin: 1rem;
+    color: #23272A;
+    margin: 1rem 0;
+}
+
+h3{
+    color: #23272A;
 }
 
 .img-txt{
     margin-bottom: 1rem;
     background-color: rgb(255, 255, 255);
+    margin-bottom: 4rem;
 }
 
 .img-txt-content{
@@ -80,8 +103,11 @@ p{
 
 .txt-img{
     margin-bottom: 1rem;
-    background-color: rgb(139, 139, 139);
-
+    background-image: url(../img/wave-bg.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 4rem;
 }
 
 .txt-img-content{
@@ -93,7 +119,10 @@ p{
 }
 
 .big-image{
-    background-color: beige;
+    background-image: url(../img/wave-bg2.svg);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .big-image-content{
@@ -102,12 +131,29 @@ p{
     margin: auto;
 }
 
+.pre-footer{
+    background-color: #F6F6F6;
+    text-align: center;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
 footer{
-    background-color: rgb(124, 189, 195);
+    background-color: #23272A;
+}
+
+.footer-title{
+    color: #7289DA;
+}
+
+.select-ita{
+    color: white;
+    margin: 1rem 0;
+    
 }
 
 .footer-top{
-    padding: 0.5rem;
+    padding: 2rem;
 }
 
 .footer-column{
