@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+header{
+    background-color: aquamarine;
+    height: 40px;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.primary-btn{
+    /* stilare il pulsante primario */
+}
+
+.hero{
+    background-color: blue;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.hero-content{
+    max-width: 1280px;
+    margin: 0 auto;
+    background-color: pink;
+    border: 1px dashed purple;
+}
+
+.img-txt{
+    margin-bottom: 1rem;
+    background-color: rgb(255, 255, 255);
+}
+
+.img-txt-content{
+    max-width: 1180px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.txt-img{
+    margin-bottom: 1rem;
+    background-color: rgb(139, 139, 139);
+
+}
+
+.txt-img-content{
+    max-width: 1180px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.big-image{
+    background-color: beige;
+}
+
+.big-image-content{
+    max-width: 1180px;
+    text-align: center;
+    margin: auto;
+}
+
+footer{
+    background-color: rgb(124, 189, 195);
+}
+
+.footer-top{
+    padding: 0.5rem;
+}
+
+.footer-column{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1180px;
+    margin: auto;
+}
+
+ul{
+    list-style: none;
+}
+
+.footer-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1180px;
+    margin: auto;
+}
+    
