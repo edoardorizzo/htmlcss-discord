@@ -140,7 +140,12 @@ h4{
     background-color: #F6F6F6;
     text-align: center;
     margin: 0 auto;
-    padding: 1rem;
+    padding-bottom: 4rem;
+}
+
+.decoration{
+    position: relative;
+    margin: auto;
 }
 
 footer{
