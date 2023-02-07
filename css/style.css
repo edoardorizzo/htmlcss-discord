@@ -4,26 +4,48 @@
     box-sizing: border-box;
 }
 
-.container{
-    max-width: 1280px;
-    margin: 0 auto;
+html{
+    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 header{
-    background-color: aquamarine;
-    height: 40px;
-    padding: 1rem;
+    background-color: #3161E0;
+    height: 50px;
+    padding: 0.5rem;
+}
+
+.header-container{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin: auto;
+    max-width: 1280px;
+}
+
+.navbar a{
+    margin: 1rem;
+    color: white;
+    text-decoration: none;
 }
 
 .primary-btn{
-    /* stilare il pulsante primario */
+    background-color: white;
+    border: none;
+    border-radius: 1rem;
+    padding: 0.5rem 1rem;
+}
+
+.secondary-btn{
+    background-color: #23272A;
+    color: white;
+    border: none;
+    border-radius: 1rem;
+    padding: 0.5rem 1rem;
 }
 
 .hero{
-    background-color: blue;
+    background-image: url(../img/jumbo.png);
+    background-size: 1280px;
     height: 400px;
     display: flex;
     justify-content: center;
@@ -33,10 +55,14 @@ header{
 }
 
 .hero-content{
-    max-width: 1280px;
+    max-width: 30rem;
     margin: 0 auto;
-    background-color: pink;
-    border: 1px dashed purple;
+    color: white;
+}
+
+h1,
+p{
+    margin: 1rem;
 }
 
 .img-txt{
