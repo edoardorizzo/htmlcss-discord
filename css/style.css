@@ -87,6 +87,11 @@ h3{
     color: #23272A;
 }
 
+h4{
+    color: #7289DA;
+
+}
+
 .img-txt{
     margin-bottom: 1rem;
     background-color: rgb(255, 255, 255);
@@ -149,11 +154,12 @@ footer{
 .select-ita{
     color: white;
     margin: 1rem 0;
-    
 }
 
 .footer-top{
     padding: 2rem;
+    max-width: 1280px;
+    margin: auto;
 }
 
 .footer-column{
@@ -166,6 +172,22 @@ footer{
 
 ul{
     list-style: none;
+}
+
+li{
+    margin: 0.5rem 0;
+}
+
+
+.footer-column a{
+    color: white;
+    text-decoration: none;
+}
+
+hr{
+    max-width: 1280;
+    margin: 1rem 0;
+    border: 0.5px solid #7289DA;
 }
 
 .footer-bottom{
